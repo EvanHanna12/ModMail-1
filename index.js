@@ -153,4 +153,4 @@ client.on('message', async message => {
 })
  
 
-client.login(""); //Add the token to your bot user here
+client.login(process.env.); //Add the token to your bot user here
